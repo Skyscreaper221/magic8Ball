@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic 8-Ball</title>
+    <link rel="stylesheet" href="magic8ball.css" />
+  </head>
+
+  <body>
+    <h1>🔮 Magic 8-Ball 🔮</h1>
+
+    <p>| Type your question below |</p>
+
+    <div class="input-container">
+      <input id="questionEn" placeholder="Ask a question..." />
+      <button id="askButtonEn" onclick="askMagic8Ball('En')">Ask</button>
+    </div>
+    <div id="answerEn" class="answer"></div>
+
+    <div style="height: 50px"></div>
+
+    <p>| Задайте въпрос отдолу |</p>
+
+    <div class="input-container">
+      <input id="questionBg" placeholder="Задай въпрос..." />
+      <button id="askButtonBg" onclick="askMagic8Ball('Bg')">Питай</button>
+    </div>
+    <div id="answerBg" class="answer"></div>
+
+    <script src="magic8ball.js"></script>
+  </body>
+</html>
